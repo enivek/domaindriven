@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Kevin Ewig</Authors>
+    <PackageProjectUrl>https://github.com/enivek/domaindriven</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/enivek/domaindriven</RepositoryUrl>
+    <PackageTags>Domain Driven Design</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>

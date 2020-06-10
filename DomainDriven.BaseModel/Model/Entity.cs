@@ -1,4 +1,4 @@
-﻿namespace DomainDriven.BaseModel
+﻿namespace DomainDriven.BaseModel.Model
 {
     public abstract class Entity<T>
     {

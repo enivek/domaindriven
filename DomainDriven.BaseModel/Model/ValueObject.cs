@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DomainDriven.BaseModel
+namespace DomainDriven.BaseModel.Model
 {
     /// <summary>
     /// A Value Object.

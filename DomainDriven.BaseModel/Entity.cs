@@ -1,6 +1,6 @@
 ﻿namespace DomainDriven.BaseModel
 {
-    public abstract class Entity<T> where T : class
+    public abstract class Entity<T>
     {
         public abstract T Id();
 
@@ -12,7 +12,7 @@
             }
 
             var other = (Entity<T>) obj;
-            return other.Id() == Id();
+            return other.Id().Equals(Id());
         }
 
         public override int GetHashCode()
